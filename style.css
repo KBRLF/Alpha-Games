@@ -3,12 +3,17 @@ margin: 0;
 padding: 0;
 }
 
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 .cabecalho{
-    background-color: #779AA1;
+    background-color:  #779AA1;
     color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 10px;
 }
 
 .cabecalho-imagem{
@@ -18,5 +23,53 @@ padding: 0;
 .cabecalho-lista-item{
     display: inline-block;
     margin: 0 16px;
-    font-size: 18px;
+    font-size: 15px;
+ }
+
+ .escola-imagem{
+    width: 15%;
+ }
+
+ .site-bacana{
+    background-image: linear-gradient(#779AA1, #2994A9);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+ }
+
+ .escola-div-conteudo{
+    width: 35%;
+ }
+.escola-titulo{
+    padding: 18px 0;
+ }
+
+ .jogos-imagem{
+width: 180px;
+ }
+
+ .jogos-div{
+    text-align: center;
+ }
+
+ .jogos-titulo{
+    text-align: center;
+    padding: 50px 0;
+ }
+
+ .jogos-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+ }
+
+ .rodape{
+    background-color: #779AA1;
+    text-align: center;
+ }
+
+ .rodape-imagem{
+    height: 70px;
+    padding: 12px 0;
  }
